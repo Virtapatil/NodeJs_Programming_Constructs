@@ -33,3 +33,7 @@ for(var day=0;day<=MAX_WORKING_DAYS;day++)
 }
 totalEmpWage=totalEmpHrs*EMP_RATE_PER_HR;
 console.log("Total Employee wage is:",totalEmpWage);
+}
+empWage=EMP_RATE_PER_HR*GetEmpHours(empInput);
+console.log("By function Employee wage is:",empWage);
+
